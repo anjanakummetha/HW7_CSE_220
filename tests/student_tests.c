@@ -5,9 +5,6 @@
 
 TestSuite(student_tests, .timeout=TEST_TIMEOUT); 
 
-
-
-
 /*Testing add_mats_sf*/
 
 //adds two 2x3 matrices with mixed positive and negative values
@@ -271,7 +268,7 @@ Test(student_tests, bst_insert_smaller_goes_left) {
     matrix_sf *A = copy_matrix(1, 1, (int[]){2}); A->name = 'A';
     root = insert_bst_sf(M, root);
     root = insert_bst_sf(A, root);
-    /* A < M so A must be left child of M */
+    //A < M so A must be left child of M 
     cr_expect_neq(root->left_child, NULL);
     cr_expect_eq(root->left_child->mat, A);
     free_bst_sf(root);
@@ -285,7 +282,7 @@ Test(student_tests, bst_insert_larger_goes_right)
     matrix_sf *Z = copy_matrix(1, 1, (int[]){2}); Z->name = 'Z';
     root = insert_bst_sf(M, root);
     root = insert_bst_sf(Z, root);
-    /* Z > M so Z must be right child of M */
+    //Z > M so Z must be right child of M 
     cr_expect_neq(root->right_child, NULL);
     cr_expect_eq(root->right_child->mat, Z);
     free_bst_sf(root);
@@ -312,6 +309,8 @@ Test(student_tests, bst_insert_many_maintains_sorted_order) {
 
 
 /* Testing find_bst_sf */
+
+
 
 //searching for a name not in the tree returns null
 Test( student_tests, bst_find_missing_returns_null) {

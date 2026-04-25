@@ -1,0 +1,14 @@
+==7104== Memcheck, a memory error detector
+==7104== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7104== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7104== Command: ./bin/execute_script script01
+==7104== 
+3 4 6 27 4 -26 32 30 39 20 93 -47 -88 -2
+==7104== 
+==7104== HEAP SUMMARY:
+==7104==     in use at exit: 0 bytes in 0 blocks
+==7104==   total heap usage: 14 allocs, 14 frees, 9,142 bytes allocated
+==7104== 
+==7104== All heap blocks were freed -- no leaks are possible
+==7104== 
+==7104== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

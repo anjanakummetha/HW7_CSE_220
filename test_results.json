@@ -1,5 +1,5 @@
 {
-  "id": "Criterion v2.4.3",
+  "id": "Criterion v2.4.1",
   "passed": 121,
   "failed": 0,
   "errored": 0,
@@ -23,23 +23,23 @@
           "status": "PASSED"
         },
         {
-          "name": "transpose_single_column_to_row",
-          "assertions": 3,
-          "status": "PASSED"
-        },
-        {
           "name": "transpose_non_square",
           "assertions": 3,
           "status": "PASSED"
         },
         {
-          "name": "transpose_double_returns_original",
+          "name": "transpose_single_column_to_row",
           "assertions": 3,
           "status": "PASSED"
         },
         {
           "name": "postfix_single_transpose",
           "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "transpose_double_returns_original",
+          "assertions": 3,
           "status": "PASSED"
         },
         {
@@ -78,12 +78,12 @@
           "status": "PASSED"
         },
         {
-          "name": "mult_basic_rectangular",
+          "name": "mult_by_identity",
           "assertions": 3,
           "status": "PASSED"
         },
         {
-          "name": "mult_by_identity",
+          "name": "mult_basic_rectangular",
           "assertions": 3,
           "status": "PASSED"
         },
@@ -178,12 +178,12 @@
           "status": "PASSED"
         },
         {
-          "name": "create_matrix_with_spacing_and_negatives",
+          "name": "create_matrix_no_spaces_around_semicolons",
           "assertions": 4,
           "status": "PASSED"
         },
         {
-          "name": "create_matrix_no_spaces_around_semicolons",
+          "name": "create_matrix_with_spacing_and_negatives",
           "assertions": 4,
           "status": "PASSED"
         },
@@ -213,13 +213,13 @@
           "status": "PASSED"
         },
         {
-          "name": "bst_insert_and_find_existing",
-          "assertions": 3,
+          "name": "bst_find_root_node",
+          "assertions": 1,
           "status": "PASSED"
         },
         {
-          "name": "bst_find_root_node",
-          "assertions": 1,
+          "name": "bst_insert_and_find_existing",
+          "assertions": 3,
           "status": "PASSED"
         },
         {
@@ -605,22 +605,22 @@
           "status": "PASSED"
         },
         {
-          "name": "script15",
-          "assertions": 1,
-          "status": "PASSED"
-        },
-        {
-          "name": "script13",
-          "assertions": 1,
-          "status": "PASSED"
-        },
-        {
           "name": "script14",
           "assertions": 1,
           "status": "PASSED"
         },
         {
+          "name": "script15",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
           "name": "script12",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "script13",
           "assertions": 1,
           "status": "PASSED"
         },
@@ -655,12 +655,12 @@
           "status": "PASSED"
         },
         {
-          "name": "add_mats01",
+          "name": "add_mats02",
           "assertions": 1,
           "status": "PASSED"
         },
         {
-          "name": "add_mats02",
+          "name": "add_mats01",
           "assertions": 1,
           "status": "PASSED"
         }
@@ -698,12 +698,12 @@
       "skipped": 0,
       "tests": [
         {
-          "name": "create02",
+          "name": "create01",
           "assertions": 4,
           "status": "PASSED"
         },
         {
-          "name": "create01",
+          "name": "create02",
           "assertions": 4,
           "status": "PASSED"
         }

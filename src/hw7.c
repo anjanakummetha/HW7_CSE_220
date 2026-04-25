@@ -381,26 +381,6 @@ matrix_sf *execute_script_sf(char *filename) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // This is a utility function used during testing. Feel free to adapt the code to implement some of
 // the assignment. Feel equally free to ignore it.
 matrix_sf *copy_matrix(unsigned int num_rows, unsigned int num_cols, int values[]) {

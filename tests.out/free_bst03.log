@@ -1,0 +1,13 @@
+==7146== Memcheck, a memory error detector
+==7146== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7146== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7146== Command: ./bin/free_bst03
+==7146== 
+==7146== 
+==7146== HEAP SUMMARY:
+==7146==     in use at exit: 0 bytes in 0 blocks
+==7146==   total heap usage: 38 allocs, 38 frees, 684 bytes allocated
+==7146== 
+==7146== All heap blocks were freed -- no leaks are possible
+==7146== 
+==7146== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
